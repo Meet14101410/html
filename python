@@ -1,0 +1,18 @@
+def get_ontario_stats():
+    ontario = {
+        "Name": "Ontario",
+        "Country": "Canada",
+        "Area": "1,076,395 sq km",
+        "Borders": ["Manitoba", "Quebec", "USA (MN, MI, OH, PA, NY)"],
+        "Top_Industry": "Automotive & Finance"
+    }
+
+    print(f"--- Quick Fact Sheet: {ontario['Name']} ---")
+    for key, value in ontario.items():
+        if isinstance(value, list):
+            print(f"{key:15}: {', '.join(value)}")
+        else:
+            print(f"{key:15}: {value}")
+
+if __name__ == "__main__":
+    get_ontario_stats()
