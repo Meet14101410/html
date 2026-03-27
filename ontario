@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ontario - Yours to Discover</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #f0f4f8; display: flex; justify-content: center; padding: 40px; }
+        .province-card { background: white; width: 550px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; border-top: 8px solid #003366; }
+        .header { background: #f8f9fa; padding: 25px; text-align: center; border-bottom: 1px solid #eee; }
+        .header h1 { margin: 0; color: #003366; }
+        .details { padding: 30px; }
+        .row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f1f1f1; }
+        .label { font-weight: bold; color: #555; }
+        .value { color: #333; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <div class="province-card">
+        <div class="header"><h1>🇨🇦 Ontario</h1><p>Loyal she began, loyal she remains</p></div>
+        <div class="details">
+            <div class="row"><span class="label">Capital:</span><span class="value">Toronto</span></div>
+            <div class="row"><span class="label">National Capital:</span><span class="value">Ottawa</span></div>
+            <div class="row"><span class="label">Est. Population:</span><span class="value">16+ Million</span></div>
+            <div class="row"><span class="label">Major Landmark:</span><span class="value">Niagara Falls / CN Tower</span></div>
+            <div class="row"><span class="label">Official Bird:</span><span class="value">Common Loon</span></div>
+        </div>
+    </div>
+</body>
+</html>
